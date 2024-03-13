@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 1ch;
+    width: 100%;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: clamp(30ch, 50ch, 70ch);
+}
+
+label {
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+input {
+    margin-bottom: 1rem;
+    width: 100%;
+}
